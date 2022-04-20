@@ -1,0 +1,12 @@
+Neos:
+  Neos:
+    Ui:
+      resources:
+        javascript:
+          NeosRulez.Neos:ViewEditor:
+            resource: resource://NeosRulez.Neos.ViewEditor/Public/ViewEditor/Plugin.js
+#        stylesheets:
+#          NeosRulez.Neos:SpacingEditor:
+#            resource: resource://NeosRulez.Neos.SpacingEditor/Public/SpacingEditor/Plugin.css
+#      frontendConfiguration:
+#        'NeosRulez.Neos:ViewEditor': '${Configuration.setting(''NeosRulez.Neos.CkEditor.FontAwesome'')}'

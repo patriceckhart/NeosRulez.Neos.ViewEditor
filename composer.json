@@ -1,0 +1,18 @@
+{
+  "description": "An editor to implement a Neos Flow controller view",
+  "type": "neos-plugin",
+  "name": "neosrulez/neos-vieweditor",
+  "require": {
+    "neos/neos": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "NeosRulez\\Neos\\ViewEditor\\": "Classes/"
+    }
+  },
+  "extra": {
+    "neos": {
+      "package-key": "NeosRulez.Neos.ViewEditor"
+    }
+  }
+}

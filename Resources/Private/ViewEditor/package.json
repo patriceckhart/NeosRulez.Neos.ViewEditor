@@ -1,0 +1,16 @@
+{
+  "description": "An editor to implement a Neos Flow controller view",
+  "license": "GNU GPLv3",
+  "private": true,
+  "scripts": {
+    "build": "neos-react-scripts build",
+    "watch": "neos-react-scripts watch"
+  },
+  "devDependencies": {
+    "@neos-project/neos-ui-extensibility": "^7.0.0"
+  },
+  "neos": {
+    "buildTargetDirectory": "../../Public/ViewEditor"
+  },
+  "dependencies": {}
+}
